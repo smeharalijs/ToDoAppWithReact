@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -14,25 +15,144 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+  min-height: 40vh;
+  min-width: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('https://images.pexels.com/photos/5861190/pexels-photo-5861190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.App {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.App-header {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 70%;
+  font-size: 16px;
+}
+
+button {
+  background-color: aqua;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  border: black 2px solid;
+
+
+}
+
+button:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: bisque;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: black 2px solid;
+
+}
+
+li button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: black 2px solid;
+
+}
+
+li button:hover {
+  background-color: white;
+}
+#deleteAll{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  border: black 2px solid;
+
+
+}
+.editColor{
+  background-color: lightslategrey;
+  color: black;
+}
+#deleteAll:hover{
+  background-color: white;
+  color: black;
+
+
+}
+#editBtn{
+  background-color: white;
+  color: black;
+  border: black 2px solid;
+
+
+}
+#editBtn:hover{
+  background-color: red;
+  color: white;
+
+}
+
